@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Properties</title>
+    <style>
+        .box{
+            --box-color: violet;
+            width: 200px;
+            height: 200px;
+            border: 4px solid var(--box-color);
+            margin: 2px 9px;
+            background-color: rgb(32, 98, 156);
+        }
+        .container{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

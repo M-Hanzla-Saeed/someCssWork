@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Selector</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <style>
+
+     header::before{
+        background: url('https://source.unsplash.com/user/erondu/1600x900') no-repeat  center center/cover;
+
+        content: "";
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        opacity: 0.4;
+        width: 100%;
+        height: 100%;
+        /* z-index: -1; */
+     }
+
+
+
+        h1{
+            font-size: 41px;
+            font-family: 'Hanalei Fill', cursive;
+font-family: 'Ubuntu', sans-serif;
+        }
+        body{
+color: white;
+background-color:black;
+margin: 0px;
+padding: 0px;
+        }
+.navigation{
+    display: flex;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    padding: 20px;
+    /* font-family: 'Hanalei Fill', cursive; */
+    font-family: 'Hanalei Fill', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+section{
+    margin: 3px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 4px solid red; */
+    height: 354px;
+    justify-content: center;
+}
+/* section::before{
+    content: "this line is adding";
+} */
+p{
+    text-align: center;
+    font-family: 'Hanalei Fill', cursive;
+font-family: 'Ubuntu', sans-serif;
+padding: 40px;
+}
+    </style>
+</head>
+<body>
+    <header>
+    <nav>
+    <ul class="navigation">
+        <li>Menu</li>
+        <li>Contact</li>
+        <li>LogIn</li>
+        <li>LogOut</li>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+    </nav>
+    </header>
+
+    <section>
+        <h1>
+            Welcome To My Coding World !!!
+        </h1>
+        <p>Lorem ipsum dolor sit amet sunt consectetur dignissimos iusto error unde, quia labore quod obcaecati? Et eveniet, est autem velit nobis dolore vel eaque ipsa beatae recusandae, eos ipsam.</p>
+    </section>
+    <!-- <hr> -->
+</body>
+</html>

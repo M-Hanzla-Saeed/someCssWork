@@ -1,0 +1,18 @@
+
+.box{
+    
+    /* display: block; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.Box{
+    margin:4px;
+    background-color: tomato;
+    height: 50px;
+    width: 50px;
+    text-align:center;
+}

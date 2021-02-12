@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atribute&NthChildPseudoSelectors</title>
+
+    <style>
+.container{
+    margin: auto;
+    width: 233px;
+    display: block;
+}
+input[type='text']{
+    padding: 20px;
+
+    background-color: rgb(138, 160, 206);
+
+}
+a[target='_blank'] {
+    text-decoration: none;
+    color: tomato;
+    font-size: 30px;
+}
+a[target='_self'] {
+    text-decoration: none;
+    color: rgb(10, 129, 109);
+    font-size: 32px;
+}
+li{
+    
+}
+li:nth-child(2n+0){
+    color: rgb(168, 14, 61);
+    font-size:36px;
+    padding: 5px;
+}
+li:nth-child(even){
+    background-color: rgb(129, 160, 129);
+}
+li:nth-child(odd){
+    background-color: rgb(199, 207, 128);
+    font-size: 30px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> <a href="http://google.com
+            " target="_blank">Go To Google</a></h1>
+        <h1> <a href="http://facebook.com
+            " target="_self">Go To Facebook</a></h1>
+      <form class="form">
+          <input type="text" placeholder="enter your text">
+          <input tpye="password" placeholder="enter your password">
+          <input type="submit" value="submit">
+
+      </form>
+      <ul>
+          <li>this is child 01</li>
+          <li>this is child 02</li>
+          <li>this is child 03</li>
+          <li>this is child 04</li>
+          <li>this is child 05</li>
+          <li>this is child 06</li>
+          <li>this is child 07</li>
+          <li>this is child 08</li>
+          <li>this is child 09</li>
+          <li>this is child 10</li>
+      </ul>
+
+    </div>
+</body>
+</html>

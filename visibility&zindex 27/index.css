@@ -1,0 +1,28 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+#box1{
+    background-color: green;
+    position: relative;
+    top: 10px;
+    z-index:55;
+     /* visibility: hidden;  just hide the element */
+     /* display: none;  hide the element and space */
+    /* z-index only work when position  is relative, absloute sticky & fixed */
+}
+#box2{
+    background-color: rgb(255, 238, 6);
+    position: relative;
+     top: 0px;
+    z-index: 40;
+}
+#box3{
+    background-color: rgb(22, 8, 155);
+    
+}
+#box4{
+    background-color: rgb(206, 13, 132);
+    
+}
